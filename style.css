@@ -15,16 +15,14 @@ main {
   display: flex;
 }
 
-.content-box {
+.contents-box {
   width: 300px;
   padding: 10px;
-  margin-top: 50px;
-  margin-bottom: 50px;
   background-color: #eeeeee;
   position: relative;
 }
 
-.content-icon {
+.contents-icon {
   position: absolute;
   top: 0;
   left: 0;
@@ -32,26 +30,26 @@ main {
   color: white;
 }
 
-.content-box:nth-child(2) {
+.contents-box:nth-child(2) {
   margin-right: 30px;
   margin-left: 30px;
 }
 
-.content-image1 {
+.contents-image1 {
   background-image: url(img/flow01.png);
   height: 150px;
   background-size: cover;
   background-position: bottom;
 }
 
-.content-image2 {
+.contents-image2 {
   background-image: url(img/flow02.png);
   height: 150px;
   background-size: cover;
   background-position: bottom;
 }
 
-.content-image3 {
+.contents-image3 {
   background-image: url(img/flow03.png);
   height: 150px;
   background-size: cover;
@@ -76,15 +74,15 @@ footer {
   main {
     width: 100%;
     display: block;
+    margin: 50px auto;
   }
 
-  .content-box {
+  .contents-box {
     width: 90%;
-    margin: 50px 30px;
+    margin: 0 auto;
   }
-  .content-box:nth-child(2) {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  .contents-box:nth-child(2) {
+    margin: 20px auto;
   }
 
   footer {
